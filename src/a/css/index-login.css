@@ -1,0 +1,27 @@
+@media (max-width: 915px){
+    #ctn{
+        width: 85%;
+        margin: auto;
+    }
+    #dob_yar_sel{
+        width: 110px;
+    }
+    #dob_mon_sel, #dob_day_sel{
+        width: 100px;
+    }
+}
+@media (min-width: 916px){
+    #ctn{
+        width: 55%;
+        margin: auto;
+    }
+}
+#div_login{
+    margin-top: 30%;
+}
+#div_register{
+    margin-top: 10%;
+}
+#lg_sp{
+    display: none;
+}

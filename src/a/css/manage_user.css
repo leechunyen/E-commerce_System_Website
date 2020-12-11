@@ -1,0 +1,28 @@
+.country_sel{
+    display:  inline-block;
+}
+#register_country_sel{
+    width: 273px;
+    margin-left: 10px;
+}
+@media (max-width: 915px){
+    #dob_yar_sel{
+        width: 110px;
+    }
+    #dob_mon_sel, #dob_day_sel{
+        width: 100px;
+    }
+}
+#div_login,#div_register_validation{
+    margin-top: 30%;
+}
+#div_register{
+    margin-top: 10%;
+}
+@media (max-width: 375px){
+    #div_home_button{
+        width: 70px;
+        text-align: center;
+        margin: auto;
+    }
+}

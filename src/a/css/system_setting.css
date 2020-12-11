@@ -1,0 +1,42 @@
+.hide{
+    display: none;   
+}
+#logo_file{
+    display: none;
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+.title_div{
+    min-width: 250px;
+}
+.cr_pv{
+    min-width: 150px;
+    text-align: center;
+}
+.dp_inline_block{
+    display: inline-block;
+}
+#tocctn{
+    overflow: scroll;
+    max-height: 80%;
+}
+@media (max-width: 561px){
+    .ctn_div{
+        text-align: center;
+    }
+}
+@media (min-width: 562px){
+    .ele,.nele{
+        display: inline-block;
+    }
+    .nele2{
+        display: inline-block;
+        margin-left: 50px;
+    }
+    .ele2{
+        display: inline-block;
+        width: 45%;
+    }
+}

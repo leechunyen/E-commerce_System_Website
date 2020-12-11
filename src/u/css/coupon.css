@@ -1,0 +1,10 @@
+.cpdiv{
+    background-color: #91918e;
+    padding: 10px;
+    display: inline-block;
+    height: 100px;
+    margin: 15px;
+}
+.cpct label{
+    color: #f7f7f7;
+}

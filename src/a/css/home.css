@@ -1,0 +1,35 @@
+#ctn{
+    text-align: center;
+    width: 100%;
+}
+.icon{
+    display: inline-block;
+}
+@media (max-width: 991px){
+    .items{
+        width: 90%;
+        height: 115px;
+        margin: 15px;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .icon{
+        float: left;
+        margin-left: 10%;
+        width: 90px;
+        height: 90px;
+    }
+}
+@media (min-width: 992px){
+    .items{
+        width: 200px;
+        height: 200px;
+        margin: 15px;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .icon{
+        width: 130px;
+        height: 130px;
+    }
+}

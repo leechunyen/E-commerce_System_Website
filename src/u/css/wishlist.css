@@ -1,0 +1,34 @@
+.pdpth{
+    width: 50px;
+    height: 50px;
+}
+.tbpthcol{
+    width: 50px;
+}
+.tbnamecellp{
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+.tbnamecell{
+    max-height: 50px;
+}
+.tbnamecol{
+    width: 50%;
+    cursor: pointer;
+    color: black;
+    
+}
+.tbnamecol:hover{
+    color: gray;
+}
+.tbpricecol{
+    width: 30%;
+}
+.tbtpricecol{
+    width: 30%;
+}

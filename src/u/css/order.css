@@ -1,0 +1,34 @@
+.pds{
+    width: 100%;
+    border: black solid 1px;
+    margin: 20px 0px;
+}
+.viewcts{
+    margin: 0px 10px;
+}
+.pdtdiv{
+    height: 50%;
+    width: 100%;
+    border: black solid 1px;
+    overflow: scroll;
+}
+.lsppth{
+    width: 50px;
+    height: 50px;
+}
+.botdiv{
+    margin: 20px 60px;
+}
+#btiptcdiv{
+    margin-top: 5px;
+    text-align: center;
+}
+#spdiv{
+    width: 350px;
+}
+.ohd{
+    margin: 20px 30px;
+}
+.lbs{
+    margin-left: 10px;
+}

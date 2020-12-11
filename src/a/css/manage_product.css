@@ -1,0 +1,22 @@
+.imgs_arr{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin: 0px 5px;
+    display: inline-block;
+}
+.img_view_arr_img_div{
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+.prodfpho{
+    width: 30px;
+    height: 30px;
+}
+#add_detail{
+    width: 100%;
+    min-height: 100px;
+}

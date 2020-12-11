@@ -1,0 +1,60 @@
+.products{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+.products:hover *{
+    color: gray;
+}
+.product_photo{
+    width: 200px;
+    height: 200px;
+}
+.pro_name{
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    white-space: nowrap;
+    max-width: 180px;
+}
+.pro_price{
+    font-size: 17px;
+}
+.cpdiv{
+    background-color: #91918e;
+    padding: 10px;
+    display: inline-block;
+    height: 90px;
+}
+#cp_ava_lb{
+    width: 110px;
+}
+#coupon_view_arr_div{
+    overflow: auto;
+    white-space: nowrap;
+    overflow-y: scroll;
+    width: 100%;
+}
+.cpct h3,.cpct label{
+    color: #f7f7f7;
+}
+.btgtcp{
+    height: 90px;
+    margin-top: -40px;
+    margin-right: -10px;
+}
+#coupon_view_arr_div, #cp_ava_lb, .cpct{
+    display: inline-block;
+}
+#pv{
+    text-align: center;
+}
+#pv,#btnsdiv,#cpdiv{
+    width: 85%;
+    margin: auto;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemSetting>
+    <Setup>false</Setup>
+    <SysAuth></SysAuth>
+    <DatabaseServer>
+        <Host></Host>
+        <Port></Port>
+        <Username></Username>
+        <Password></Password>
+        <DatabaseName></DatabaseName>
+    </DatabaseServer>
+    <MailServer>
+        <Username></Username>
+        <Password></Password>
+        <Host></Host>
+        <Port></Port>
+        <SMTPSecure></SMTPSecure>
+        <SMTPAuth></SMTPAuth>
+    </MailServer>
+    <PayPalAPI></PayPalAPI>
+    <Currency></Currency>
+    <LogoPath></LogoPath>
+    <Title></Title>
+    <MinPassLength></MinPassLength>
+    <PassCap></PassCap>
+    <TncPath></TncPath>
+    <ForceHTTPS></ForceHTTPS>
+</SystemSetting>

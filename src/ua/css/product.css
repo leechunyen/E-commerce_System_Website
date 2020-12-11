@@ -1,0 +1,72 @@
+#bt_top{
+    width: 100%;
+    margin-bottom: 0.3%;
+}
+#lb_pid{
+    margin-left: 10px;
+    font-size: 25px;
+}
+#ip_qty{
+    text-align: center;
+}
+.img_view_arr_img_div{
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+.imgivarrdiv{
+    position: relative;
+    margin: 0px 5px;
+    display: inline-block;
+}
+.imgivarrimgview{
+    width: 150px;
+    height: 150px;
+}
+.mrimgs{
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+}
+#add_icn{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+#add_icn:hover{
+    opacity: 50%;
+}
+#divdetail,#edtProDtl{
+    width: 100%;
+    min-height: 100px;
+}
+#btdelallnew{
+    margin: 0px 10px;
+}
+#nwdfpth{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+@media (max-width: 767px){
+    #edtmrpth{
+        width: 100%;
+    }
+    #addmrphdiv{
+        width: 60px;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 768px){
+    #edtmrpth{
+        float: right;
+        width: 90%;
+    }
+    #add_icn{
+        float: left;
+        margin: 50% 30%;
+    }
+}
