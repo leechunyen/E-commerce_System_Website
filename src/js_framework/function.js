@@ -11,6 +11,7 @@ let ivdt='Invalid date.';
 let ivtd='Invalid date time.';
 let alex='Already exist please use another.';
 let atua='unavailabel time can\'t early or equre toavailable time.';
+let ivip="Invalid input.";
 function gotoHTTPS(){
     location.protocol = "https:";
 }

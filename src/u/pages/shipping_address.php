@@ -85,7 +85,7 @@ checkUserLogin(true,true);
                 <div class="form-group row">
                     <label for="add_st" class="col-sm-4 col-form-label">State</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="add_st" placeholder="Country">
+                        <input type="text" class="form-control" id="add_st" placeholder="State">
                         <div class="valid-feedback">
                             Looks good!
                         </div>
@@ -95,7 +95,9 @@ checkUserLogin(true,true);
                 <div class="form-group row">
                     <label for="add_cty" class="col-sm-4 col-form-label">Country</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="add_cty" placeholder="Country">
+                        <select class="country_sel form-control" id="add_cty">
+                            <option value="">--</option>
+                        </select>
                         <div class="valid-feedback">
                             Looks good!
                         </div>
@@ -198,7 +200,7 @@ checkUserLogin(true,true);
                 <div class="form-group row">
                     <label for="edt_st" class="col-sm-4 col-form-label">State</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="edt_st" placeholder="Country">
+                        <input type="text" class="form-control" id="edt_st" placeholder="State">
                         <div class="valid-feedback">
                             Looks good!
                         </div>
@@ -208,7 +210,9 @@ checkUserLogin(true,true);
                 <div class="form-group row">
                     <label for="edt_cty" class="col-sm-4 col-form-label">Country</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="edt_cty" placeholder="Country">
+                        <select class="country_sel form-control" id="edt_cty">
+                            <option value="">--</option>
+                        </select>
                         <div class="valid-feedback">
                             Looks good!
                         </div>
@@ -237,4 +241,5 @@ checkUserLogin(true,true);
         </div>
     </div>
 </div>
+<script src="../../js_framework/variousCountryListFormats.js" type="text/javascript"></script>
 <script src="../js/shipping_address.js"></script>
