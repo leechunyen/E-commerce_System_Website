@@ -139,10 +139,10 @@ $uid=$_SESSION['uid'];
             </div>
             <div id="cps" class="modal-body">
                 <p>Total products: <label id="co_top">0</label></p>
-                <p>Price: <label id="co_pdp">0.00</label></p>
-                <p>Shipping Fee: <label id="co_spf">0.00</label></p>
-                <p>Coupon: <label id="co_cp">0.00</label></p>
-                <p>Total payment: <label id="co_tpay">0.00</label></p>
+                <p>Price: <?php echo$xmldata->Currency;?>&nbsp;<label id="co_pdp">0.00</label></p>
+                <p>Shipping Fee: <?php echo$xmldata->Currency;?>&nbsp;<label id="co_spf">0.00</label></p>
+                <p>Coupon: <?php echo$xmldata->Currency;?>&nbsp;<label id="co_cp">0.00</label></p>
+                <p>Total payment: <?php echo$xmldata->Currency;?>&nbsp;<label id="co_tpay">0.00</label></p>
                 <div id="paypal-button-container"></div>
             </div>
             <div class="modal-footer">
