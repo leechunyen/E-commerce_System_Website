@@ -139,7 +139,7 @@ function saveTrackingCode(){
             {tc:tc,oid:oid},
             function(data){
                 if(data!==''){alert(data);}
-                else{$('.modal').modal('hide');}
+                else{$('.modal').modal('hide');loadData();}
             });
         }
     }
