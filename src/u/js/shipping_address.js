@@ -141,7 +141,7 @@ function add(){
         pass=false;
         $('#er_ad_tag').html(stal);
         $('#add_tag').removeClass('is-valid').addClass('is-invalid');
-    }else{$('#edt_tag').removeClass('is-invalid').addClass('is-valid');}
+    }else{$('#add_tag').removeClass('is-invalid').addClass('is-valid');}
     if(pass){
         let form_data=new FormData();
         form_data.append('data[]',name);
