@@ -26,7 +26,7 @@ if(!isset($_POST['mode'])||!isset($_POST['se'])||!isset($_POST['str'])||!isset($
                 <div class="cpct">
                     <label>Pay '.$xmldata->Currency.'&nbsp;'.$row['MinPay'].' get '; if($mode=='c'){$cps.=$xmldata->Currency.'&nbsp;'.$row['Discount'];}elseif($mode=='p'){$cps.=number_format($row['Discount'],0).'%';} $cps.=' offer</label>
                     <br/><label>Valid until '.dataFormat($row['ExpireDateTime']).'</label>
-                    <br/><label>';if($row['Used']){$cps.='Used';}elseif(new DateTime($row['ExpireDateTime'])<new DateTime(getDateTime())){$cps.='Available';}else{$cps.='Expired';}$cps.='</label>
+                    <br/><label>';if($row['Used']){$cps.='Used';}elseif(new DateTime($row['ExpireDateTime'])>new DateTime(getDateTime())){$cps.='Available';}else{$cps.='Expired';}$cps.='</label>
                 </div>
             </div>';
         }
